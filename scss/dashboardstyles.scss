@@ -2,9 +2,9 @@
 // order list styles
 
 body.pixel-dashboard{
-    background: $primary-color;
+    background: #EDEFEF;
     width: 100%;
-    height: 100vh;
+    height: auto;
     font-family: 'Montserrat';
     overflow-x: hidden;
     aside{
@@ -698,20 +698,18 @@ body.pixel-dashboard{
           background-clip: border-box;
           
             .head-tabs{
-              display: block;
+              display: flex;
               padding: 0 16px 0 24px;
               border-bottom: 1px solid #EDEFEF;
-              @media(max-width:575px){
-                display: flex;
+              justify-content: space-between;
+              @media(max-width:767px){
+                // display: flex;
                 flex-direction: column;
               }
               ul.pixel-order-tabs{
                 display: inline-block;
                 padding: 24px 0 11px 0 ;
-                @media(max-width:768px){
-                  width: 100%;
-                }
-                @media(max-width:575px){
+                @media(max-width:767px){
                   order: 2;
                 }
                 li{
@@ -721,6 +719,9 @@ body.pixel-dashboard{
                   font-weight: 400;
                   // transition: .3s all ease-in-out;
                   position: relative;
+                  @media(max-width:768px){
+                    margin-right: 26px;
+                  }
                   &::after{
                     display: inline-block;
                     content: '';
@@ -731,9 +732,10 @@ body.pixel-dashboard{
                     left: 0;
                     bottom:-15px;
                     transition: all .5s ease-in-out;
-                  
+                    @media(max-width:767px){
+                      bottom: 0;
+                    }
                   }
-
                   @media(max-width:767px){
                     width: 100%;
                     line-height: 32px;
@@ -792,7 +794,7 @@ body.pixel-dashboard{
                 align-items: center;
                 justify-content: space-evenly;
                 cursor: pointer;
-                @media(max-width:575px){
+                @media(max-width:767px){
                   order: 1;
                   align-self: flex-end;
                 }
@@ -1261,6 +1263,9 @@ body.pixel-dashboard{
                   font-size: 12px;
                   font-weight: 600;
                   color: $p-color;
+                  word-break: break-word;
+                  padding-right: 10px;
+                  overflow-wrap: break-word;
                 }
                 .pixel-item-descrip{
                   margin-top: 6px;
@@ -1365,6 +1370,9 @@ body.pixel-dashboard{
                 color: $p-color;
                 font-family: 'Montserrat';
                 margin-right: 166px;
+                @media(max-width:1260px){
+                  margin-right: 103px;
+                }
                 @media(max-width:991px){
                   margin-right:0;
                 }
@@ -1406,6 +1414,10 @@ body.pixel-dashboard{
             border-top: 1px solid #EDEFEF;
             padding: 11px 24px;
             align-items: center;
+            @media(max-width:500px){
+              justify-content: normal;
+              flex-flow: row wrap;
+            }
             button.rfq-cancel{
               width: 120px;
               height: 36px;
@@ -1419,12 +1431,17 @@ body.pixel-dashboard{
               cursor: pointer;
               transition: all .5s ease-in-out;
               overflow: hidden;
+              @media(max-width:500px){
+                width: 100%;
+                margin-top: 10px;
+              }
               &:hover{
                 color: #fff;
                 box-shadow: none;
                 background:#EC7451 ;
 
               }
+
             }
             .pixel-view-product{
               text-decoration: underline;
@@ -1432,6 +1449,11 @@ body.pixel-dashboard{
                 font-size: 12px;
                 color:#EC7451;
                 text-decoration: none;
+              }
+              @media(max-width:500px){
+                width: 100%;
+                text-align: center;
+                margin: 18px 0;
               }
             }
           }
@@ -1609,7 +1631,13 @@ body.pixel-dashboard{
         }
         .pixel-quatation-received{
           margin-top:32px;
-          
+          // .pixel-details-head{
+          //   // justify-content: normal;
+          //   // flex-flow: row wrap;
+          //   // .pixel-details-hd{
+          //   //   display: block;
+          //   // }
+          // }
           .pixel-quotation-details{
             display: flex;
             justify-content: space-between;
@@ -1633,9 +1661,9 @@ body.pixel-dashboard{
                 font-size: 12px;
                 font-weight: 500;
                 color: $p-color;
-                @media(max-width:500px){
-                  margin-bottom: 0;
-                }
+                // @media(max-width:500px){
+                //   margin-bottom: 0;
+                // }
               }
             }
             .pixel-quotation-number, .pixel-delivery-type, .pixel-valid-date, .pixel-shipping, .pixel-payment{
@@ -1650,18 +1678,40 @@ body.pixel-dashboard{
                 width: 100%;
               }
             }
+            // div.pixel-payment{
+            //   .quotation-content-value{
+            //     &:first-of-type{
+            //       margin-bottom: 15px;
+            //     }
+            //   }
+            // }
 
           }
           .pixel-quotation-item{
             .pixel-ordered-listitem{
               .pixel-expiry-date{
                 margin-right: 114px;
+                @media(max-width:767px){
+                  margin-right: 0;
+                  width: 100%;
+                  margin-top: 10px;
+                }
                 span{
                   font-size: 10px;
                   font-weight: 400;
                   color: $p-color;
                   display: block;
                   line-height: 20px;
+                  @media(max-width:767px){
+                    display: inline-block;
+                  }
+                  &:first-of-type{
+                    @media(max-width:767px){
+                      margin-right: 10px;
+                    }
+                   
+                  }
+                 
                 }
               }
             }
@@ -1669,6 +1719,9 @@ body.pixel-dashboard{
               display: flex;
               justify-content: space-between;
               margin: 48px 100px 0 100px;
+              @media(max-width:900px){
+                margin: 48px 0 0 0;
+              }
               @media(max-width:575px){
                 margin: 24px 0 0 0;
                 flex-flow: row wrap;
@@ -1748,19 +1801,29 @@ body.pixel-dashboard{
       .pixel-adds{
         // flex-grow: 3;
         margin-left: 32px;
-        min-width: 287px;
+        
         @media(max-width:1200px){
           margin-top: 32px;
+          margin-left: 0;
+          justify-content: space-between;
+          display: flex;
+          flex-flow: row wrap;
+          width: 100%;
         }
         @media(max-width:575px){
           margin-left: 0px;
           width: 100%;
         }
-          .adds-image{  
-            img{
-              width: 100%;
-            }
+        .adds-image{  
+          min-width: 287px;
+          display: inline-block;
+          @media(max-width:500px){
+            width: 100%;
           }
+          img{
+            width: 100%;
+          }
+        }
       
       }
       .pixel-delivery-status{
@@ -1793,9 +1856,14 @@ body.pixel-dashboard{
             
           }
         }
+        .pixel-traking-box{
+          padding-bottom: 24px;
+        }
         .pixel-order-traker{
           padding: 0 0 0 32px;
-          margin-top: 44px;
+          margin-top: 48px;
+          display: flex;
+          align-items: center;
           &:first-of-type{
             margin-top: 0;
             padding-top: 24px;
@@ -1883,4 +1951,5 @@ body.pixel-dashboard{
 }
 
 @import "arabicstyles";
+// @import "arabicstylesligin";
 
