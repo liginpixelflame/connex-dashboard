@@ -18,126 +18,108 @@ a, .btn {
   font-weight: 900;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"), url("../fonts/Montserrat-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-BoldItalic.woff2") format("woff2"), url("../fonts/Montserrat-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-Italic.woff2") format("woff2"), url("../../assets/fonts/Montserrat-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../../assets/fonts/Montserrat-ExtraLightItalic.woff2") format("woff2"), url("../../assets/fonts/Montserrat-ExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-MediumItalic.woff2") format("woff2"), url("../fonts/Montserrat-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-LightItalic.woff2") format("woff2"), url("../fonts/Montserrat-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-SemiBoldItalic.woff2") format("woff2"), url("../fonts/Montserrat-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-Thin.woff2") format("woff2"), url("../fonts/Montserrat-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap; }
-
 @font-face {
   font-family: 'Montserrat';
   src: url("../fonts/Montserrat-ThinItalic.woff2") format("woff2"), url("../fonts/Montserrat-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap; }
-
 body.pixel-dashboard {
   background: #EDEFEF;
   width: 100%;
@@ -202,7 +184,7 @@ body.pixel-dashboard {
   body.pixel-dashboard aside.pixel-expand {
     width: 231px;
     z-index: 100;
-    box-shadow: 1px ​0px 25px 8px rgba(0, 0, 0, 0.2); }
+    box-shadow: 1px ΓÇï0px 25px 8px rgba(0, 0, 0, 0.2); }
     body.pixel-dashboard aside.pixel-expand .pixel-logo a.logo-icon {
       display: none; }
     body.pixel-dashboard aside.pixel-expand .pixel-logo a.logo-txt {
@@ -506,7 +488,7 @@ body.pixel-dashboard {
       justify-content: normal; }
       body.pixel-dashboard .pixel-content-area .pixel-rfq-summery .pixel-sample-order {
         margin-left: 93px;
-        width: calc( 100% - 400px); }
+        width: calc( 100% - 400px ); }
         @media (max-width: 1199px) {
           body.pixel-dashboard .pixel-content-area .pixel-rfq-summery .pixel-sample-order {
             width: 100%;
@@ -1160,7 +1142,8 @@ body.pixel-dashboard .pixel-content-area .pixel-details-main {
           body.pixel-dashboard .pixel-content-area .pixel-details-main .pixel-order-details .pixel-details-inner .pixel-order-footer .pixel-view-product a {
             font-size: 12px;
             color: #EC7451;
-            text-decoration: none; }
+            text-decoration: none;
+            font-weight: 600; }
           @media (max-width: 500px) {
             body.pixel-dashboard .pixel-content-area .pixel-details-main .pixel-order-details .pixel-details-inner .pixel-order-footer .pixel-view-product {
               width: 100%;
@@ -1481,7 +1464,7 @@ body.pixel-dashboard .pixel-content-area .pixel-details-main {
           content: '';
           width: 0;
           height: 48px;
-          bottom: -49px;
+          top: -49px;
           border: 1px dashed #EDEFEF;
           left: 50%;
           transform: translate(-50%); }
@@ -1513,7 +1496,6 @@ body.pixel-dashboard .pixel-content-area .pixel-details-main {
       color: #092445; }
     body.pixel-dashboard .pixel-content-area .pixel-details-main .pixel-delivery-status .pixel-order-traker.order-confirmed .pixel-order-text .pixel-received-date {
       display: block; }
-
 body.pixel-dashboard .pixel-content-area .pixel-my-wishlist {
   background: #fff;
   padding: 24px 32px 0 21px;
@@ -1526,7 +1508,6 @@ body.pixel-dashboard .pixel-content-area .pixel-my-wishlist {
     color: #181F3F;
     font-weight: 600;
     padding-left: 21px; }
-
 body.pixel-dashboard .pixel-content-area .pixel-wishlist-category {
   margin-top: 24px; }
   body.pixel-dashboard .pixel-content-area .pixel-wishlist-category .pixel-category-title {
@@ -1618,7 +1599,6 @@ body.pixel-dashboard .pixel-content-area .pixel-wishlist-category {
             fill: #fff; }
       body.pixel-dashboard .pixel-content-area .pixel-wishlist-category .pixel-category-lists .category-item:hover .pixel-edit-icon {
         opacity: 1; }
-
 body.pixel-dashboard .pixel-content-area .pixel-my-wishlist {
   background: #fff;
   border-radius: 8px;
@@ -1756,7 +1736,6 @@ body.pixel-dashboard .pixel-content-area .pixel-my-wishlist {
             margin-left: 10px;
             font-size: 12px;
             font-weight: 600; }
-
 body.pixel-dashboard .pixel-content-area .pixel-table-footer {
   border-top: 1px solid #EDEFEF;
   padding: 11px 24px;
@@ -1849,7 +1828,6 @@ body.pixel-dashboard .pixel-content-area .pixel-table-footer {
         background: #EC7451;
         color: #fff;
         border: 0.5px solid #EC7451; }
-
 body.pixel-dashboard .pixel-content-area .pixel-supplier-list {
   background: #fff;
   margin-top: 24px;
@@ -2114,7 +2092,16 @@ body.pixel-dashboard .pixel-content-area .pixel-supplier-list {
     body.pixel-dashboard .pixel-content-area .pixel-supplier-list .pixel-supplier-content .pixel-supplier-fav {
       padding: 32px 12px 0 12px;
       overflow-x: hidden;
-      overflow-y: scroll; }
+      overflow-y: scroll;
+      max-height: 540px; }
+      body.pixel-dashboard .pixel-content-area .pixel-supplier-list .pixel-supplier-content .pixel-supplier-fav::-webkit-scrollbar {
+        width: 2px;
+        margin-left: 10px;
+        padding: 0 10px; }
+      body.pixel-dashboard .pixel-content-area .pixel-supplier-list .pixel-supplier-content .pixel-supplier-fav::-webkit-scrollbar-track {
+        background: #fff; }
+      body.pixel-dashboard .pixel-content-area .pixel-supplier-list .pixel-supplier-content .pixel-supplier-fav::-webkit-scrollbar-thumb {
+        background: #505771; }
       body.pixel-dashboard .pixel-content-area .pixel-supplier-list .pixel-supplier-content .pixel-supplier-fav .category-name {
         display: inline-block;
         font-size: 14px;
@@ -2462,10 +2449,10 @@ body.pixel-arabic {
   @media (max-width: 1024px) {
     body.pixel-arabic .pixel-content-area .pixel-details-main .pixel-delivery-status {
       margin-right: 0px; } }
-
 @media (max-width: 1024px) and (max-width: 575px) {
   body.pixel-arabic .pixel-content-area .pixel-details-main .pixel-order-details .pixel-details-inner .pixel-order-total .pixel-prize-box .pixel-order-txt, body.pixel-arabic .pixel-content-area .pixel-details-main .pixel-order-details .pixel-details-inner .pixel-order-total .pixel-prize-box .pixel-price-text, body.pixel-arabic .pixel-content-area .pixel-details-main .pixel-order-details .pixel-details-inner .pixel-order-total .pixel-prize-box .pixel-shipment, body.pixel-arabic .pixel-content-area .pixel-details-main .pixel-order-details .pixel-details-inner .pixel-order-total .pixel-prize-box .pixel-cost-text {
     margin-left: 0; } }
+
   body.pixel-arabic .pixel-content-area .pixel-rfq-summery .pixel-sample-order {
     margin-left: 0;
     margin-right: 93px; }
@@ -2520,3 +2507,5 @@ body.pixel-arabic {
   body.pixel-arabic .pixel-content-area .pixel-title-bar .pixel-export-pdf .export-text {
     margin-left: 0;
     margin-right: 9px; }
+
+/*# sourceMappingURL=dashboardstyles.css.map */
