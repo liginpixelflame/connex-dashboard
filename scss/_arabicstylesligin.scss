@@ -1,0 +1,105 @@
+body.pixel-arabic{
+  .pixel-content-area{
+    .pixel-rfq-summery{
+      .pixel-sample-order{
+        margin-left: 0;
+        margin-right: 93px;
+        @media(max-width:1200px){
+          margin-right: 0;
+          border-right: 0;
+        }
+      }
+    }
+    .pixel-order-table{
+      .head-tabs{
+        ul.pixel-order-tabs{
+          li.active{
+            &::after{
+              bottom: -11px;
+              @media(max-width:575px){
+                bottom: 0;
+              }
+            }
+          }
+          li{
+            &::after{
+              bottom: -11px;
+              left: auto;
+              right: 0;
+             
+              @media(max-width:575px){
+                bottom: 0;
+              }
+            }
+            @media(max-width:991px){
+              margin-left: 25px;
+            }
+            @media(max-width:575px){
+              margin-left: 0;
+            }
+            &:hover{
+              &::after{
+                bottom: -11px;
+                @media(max-width:575px){
+                  bottom: 0;
+                }
+              }
+            }
+           
+          }
+        }
+      }
+    }
+    .pixel-details-main{
+      .pixel-quatation{
+        .pixel-quatation-received{
+          .pixel-quotation-details{
+            padding: 24px 24px 32px 83px;
+          }
+            .pixel-quotation-item{
+              .pixel-ordered-listitem{
+                .pixel-expiry-date{
+                  margin-right: 0;
+                  margin-left: 114px;
+                  @media(max-width:991px){
+                    margin-left: 0;
+                  }
+                  span{
+                    &:first-of-type{
+                      margin-right: 0;
+                      @media(max-width:767px){
+                        margin-left: 12px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          
+          .pixel-message{
+            textarea.pixel-message-area{
+              padding: 16px 16px 0 0;
+            }
+          }
+        }
+      }
+      .pixel-adds{
+        margin-left: 0;
+        margin-right: 32px;
+        @media(max-width:1200px){
+          margin-right: 0;
+        }
+      }
+
+    }
+    .pixel-title-bar{
+      .pixel-export-pdf{
+        .export-text{
+          margin-left: 0;
+          margin-right: 9px;
+        }
+      }
+    }
+  }
+
+}
