@@ -222,7 +222,7 @@ body.pixel-dashboard{
 
 
     .pixel-content-area{
-        width: calc( 100vw - 212px);
+        // width: calc( 100vw - 212px);
         height: auto;        
         margin-left: 80px;
         padding: 0 64px 64px 64px;
@@ -2826,6 +2826,7 @@ body.pixel-dashboard{
   background: rgba(15, 17, 30, .6);
   overflow: hidden;
   font-family: 'Montserrat';
+  transition: all .5s;
 
   .create-wishlist-box{
     width: 400px;
@@ -2836,6 +2837,9 @@ body.pixel-dashboard{
     left:50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    opacity: 0;
+    transition: all 0.2s;
+    // transform: translateY(-100px);
     @media(max-width:475px){
       width: 90%;
     }
@@ -2936,6 +2940,10 @@ body.pixel-dashboard{
         }
       }
     }
+  }
+  .create-show{
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 

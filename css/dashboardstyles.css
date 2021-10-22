@@ -252,7 +252,6 @@ body.pixel-dashboard {
         body.pixel-dashboard aside.pixel-expand .pixel-pages-links li.expand-active ul.sub-nav li.sub-nav-active a {
           color: #EC7451; }
   body.pixel-dashboard .pixel-content-area {
-    width: calc( 100vw - 212px);
     height: auto;
     margin-left: 80px;
     padding: 0 64px 64px 64px;
@@ -2252,7 +2251,8 @@ body.pixel-dashboard .pixel-content-area .pixel-supplier-list {
   z-index: 9999;
   background: rgba(15, 17, 30, 0.6);
   overflow: hidden;
-  font-family: 'Montserrat'; }
+  font-family: 'Montserrat';
+  transition: all .5s; }
   .pixel-create-wishlist .create-wishlist-box {
     width: 400px;
     height: auto;
@@ -2261,7 +2261,9 @@ body.pixel-dashboard .pixel-content-area .pixel-supplier-list {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: absolute; }
+    position: absolute;
+    opacity: 0;
+    transition: all 0.2s; }
     @media (max-width: 475px) {
       .pixel-create-wishlist .create-wishlist-box {
         width: 90%; } }
@@ -2342,6 +2344,9 @@ body.pixel-dashboard .pixel-content-area .pixel-supplier-list {
           box-shadow: inset 0 0 0 1px #ec7451;
           background: transparent;
           color: #DA634A; }
+  .pixel-create-wishlist .create-show {
+    opacity: 1;
+    transform: translateY(0); }
 
 body.pixel-arabic {
   text-align: right; }
