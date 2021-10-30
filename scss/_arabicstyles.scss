@@ -202,6 +202,23 @@ body.pixel-arabic{
               }
             }
           }
+          .pixel-srch-filter{
+            .pixel-filters{
+              .pixel-sort{
+                .droplist-box{
+                  left: auto;
+                  right: 0;
+                  ul{
+                    li{
+                      text-align: right;
+                      padding-left: 0;
+                      padding-right: 16px;
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
     .pixel-details-main{
       .pixel-quatation{
@@ -320,6 +337,7 @@ body.pixel-arabic{
                   margin-right: 9px;
                 }
               }
+         
             }
           }
           .pixel-supplier-listing{
@@ -389,3 +407,38 @@ body.pixel-arabic{
     }
   }
 }
+
+// dashboard notification 
+body.pixel-arabic.open_notification{
+  .pixel_dashboard_notification-sidebar{
+      left: 0px;
+      right: auto;
+      
+  }
+}
+body.pixel-arabic{
+  .pixel_dashboard_notification-sidebar{
+      left: -521px;
+      right: auto;
+      .pixel_dashboard_notification-sidebar-wrap .pixel_notification_nav .pixel_notify-btn .pixel_notify-btn-text{
+          padding-left: 0;
+          padding-right: 5px;
+      }
+      .pixel_dashboard_notification-sidebar-wrap .pixel_notification_nav .pixel_notify-btn{
+          box-shadow: -5px 7px 10px #eee;
+      }
+      .pixel_dashboard_notification-sidebar-wrap .pixel_notification_body .pixel_notification_body-content .notification_block .notification_block-bodycopy{
+          margin-left: 0;
+          margin-right: 12px;
+      }
+     .pixel_dashboard_notification-sidebar-wrap .pixel_notification_nav .pixel_notify-btn .pixel_notify-btn-text::before{
+         right: 0;
+         left: auto;
+     }
+   .pixel_dashboard_notification-sidebar-wrap .pixel_notification_nav .pixel_notify-btn.new_notification .pixel_notify-btn-logo::after{
+       right: 100%;
+       left: auto;
+   }
+  }
+}
+// dashboard notification end
