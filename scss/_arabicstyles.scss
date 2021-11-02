@@ -405,6 +405,107 @@ body.pixel-arabic{
       }
 
     }
+    .pixel-support-main{
+      .pixel-support{
+        .pixel-details-inner{
+          .pixel-details-head{
+            padding: 24px 24px 21px 0;
+          }
+          .pixel-supplier-chatbox{
+            left: -100% ;
+            border-left: none;
+            border-right: 1px solid #EDEFEF;
+            right: auto;
+            direction: ltr;
+          }
+          .chat-open{
+            left: 0;
+          }
+        }
+        .pixel-support-section{
+          .pixel-support-create{
+            form{
+              fieldset{
+                .field-box{
+                  padding-left: 0;
+                  padding-right: 16px;
+                }
+                textarea{
+                  padding: 13px 16px 0 0;
+                }
+              }
+            }
+          }
+          .pixel-ticket-list .pixel-tab-pane .pixel-row .pixel-width .pixel-main-table .pixel-datatable table tbody tr td{
+            text-align: right;
+          }
+          .pixel-ticket-list .pixel-tab-pane .pixel-row .pixel-width .pixel-main-table .pixel-datatable table tbody tr td:last-of-type{
+            text-align: right;
+            padding-left:32px ;
+            padding-right: 0;
+          }
+        }
+      }
+    }
+    .pixel-table-content .pixel-tab-pane .pixel-row .pixel-width .pixel-main-table .pixel-datatable table thead tr th{
+      text-align: right;
+    }
+    .dashboard-total .pixel-promotional-order:last-child{
+      margin-right: 0;
+      margin-left: 118px;
+    }
+    .pixel-things{
+      background: linear-gradient(270deg, #FFFFFF 32.81%, #FFF2CF 100%);
+    }
+    .pixel-summery .summery-graph{
+      margin: 0 24px 0 0;
+    }
+    .pixel-things .things-points ul li{
+      padding-left: 0;
+      padding-right: 20px;
+    }
+    .pixel-things .things-points ul li::before{
+      left: auto;
+      right: -2px;
+    }
+    .pixel-things .things-img{
+      margin-right: auto;
+      margin-left: 112px;
+    }
+    .pixel-summery .summery-graph .graph-head .graph-filter .month-filter{
+      margin-left: auto;
+      margin-right: 8px;
+    }
+    .pixel-items-top > div .recent-head{
+      padding: 24px 24px 13px 0;
+    }
+    .pixel-items-top .pixel-fav-product .recent-order-list .recent-order-item .recent-item-details{
+      margin-left: auto;
+      margin-right: 14px;
+    }
+    .pixel-items-top .most-items .recent-order-list .recent-order-item .recent-item-details{
+      margin-left: auto;
+      margin-right: 14px;
+    }
+    .pixel-items-top .pixel-fav-product .recent-order-list .recent-order-item .recent-item-details .fav-item-icon{
+      right: auto;
+      left: 0;
+    }
+    .pixel-rfq-summery .pixel-total-order{
+      padding: 24px 24px 24px 0;
+    }
+    .pixel-rfq-summery .pixel-sample-order .pixel-rfq-status{
+      padding-right: 0;
+      padding-left: 32px;
+    }
+    .pixel-rfq-summery .pixel-progress-bar-hints .color-hints .hint-text{
+      margin-right: 12px;
+      margin-left: auto;
+    }
+    .pixel-total-supplier-box .supplier-area .supplier-top-list .supplier-list-item .supplier-list-toper .toper-details{
+      margin-left: auto;
+      margin-right: 24px;
+    }
   }
 }
 

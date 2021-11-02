@@ -541,6 +541,7 @@ body.pixel-dashboard{
               padding-top: 10px;
             }
             &:last-child{
+              margin-right: 118px;
               @media(max-width:1199px){
                 border-left: 1px solid #EDEFEF;
                 padding-left: 24px;
@@ -3133,8 +3134,8 @@ body.pixel-dashboard{
               border-top: 1px solid #EDEFEF;
               height: 50px;
               width: -webkit-fill-available;
-              display: block;
-              // justify-content: space-between;
+              display: flex;
+              justify-content: space-between;
               // align-items: center;
               padding: 12px 16px 0 24px ;
               .chat-attachment{
@@ -3640,7 +3641,7 @@ body.pixel-dashboard{
         &::before{
           content: '';
           display: inline-block;
-          left: 0;
+          left: 5px;
           width: 8px;
           height: 8px;
           border-radius: 50%;
@@ -3648,6 +3649,10 @@ body.pixel-dashboard{
           position: absolute;
           top: 50%;
           transform: translate(-50%, -50%);
+        }
+        a{
+          color:#EC7451;
+          text-decoration: underline;
         }
        }
       }
