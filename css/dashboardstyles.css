@@ -410,6 +410,9 @@ body.pixel-dashboard {
       margin-top: 24px;
       font-family: 'Montserrat';
       flex-wrap: wrap; }
+      @media (max-width: 1199px) {
+        body.pixel-dashboard .pixel-content-area .pixel-total-bar {
+          justify-content: flex-start; } }
       @media (max-width: 767px) {
         body.pixel-dashboard .pixel-content-area .pixel-total-bar {
           flex-direction: column; } }
@@ -488,7 +491,7 @@ body.pixel-dashboard {
         font-family: 'Montserrat'; }
     @media (max-width: 1199px) {
       body.pixel-dashboard .pixel-content-area .dashboard-total .pixel-total-order, body.pixel-dashboard .pixel-content-area .dashboard-total .pixel-sample-order, body.pixel-dashboard .pixel-content-area .dashboard-total .pixel-promotional-order {
-        width: 47%; } }
+        width: 42%; } }
     @media (max-width: 767px) {
       body.pixel-dashboard .pixel-content-area .dashboard-total .pixel-total-order, body.pixel-dashboard .pixel-content-area .dashboard-total .pixel-sample-order, body.pixel-dashboard .pixel-content-area .dashboard-total .pixel-promotional-order {
         width: 100%; } }
@@ -508,7 +511,8 @@ body.pixel-dashboard {
       @media (max-width: 1199px) {
         body.pixel-dashboard .pixel-content-area .dashboard-total .pixel-promotional-order:last-child {
           border-left: 1px solid #EDEFEF;
-          padding-left: 24px; } }
+          padding-left: 24px;
+          margin-right: 0; } }
       @media (max-width: 767px) {
         body.pixel-dashboard .pixel-content-area .dashboard-total .pixel-promotional-order:last-child {
           border-left: none;
@@ -2986,6 +2990,10 @@ body.pixel-dashboard .pixel-content-area .pixel-support-main {
       align-items: center;
       height: 55px;
       border-bottom: 1px solid #EDEFEF; }
+      @media (max-width: 475px) {
+        .pixel-content-area .pixel-summery .summery-graph .graph-head {
+          flex-direction: column;
+          padding: 15px; } }
       .pixel-content-area .pixel-summery .summery-graph .graph-head .graph-title {
         font-size: 14px;
         font-weight: 600;
@@ -3363,9 +3371,10 @@ body.pixel-dashboard .pixel-content-area .pixel-support-main {
           height: 8px;
           border-radius: 50%;
           background-color: #EC7451;
-          left: 100%;
+          right: -6px;
           top: 5px;
-          z-index: 3; }
+          z-index: 3;
+          border: 2px solid #fff; }
       .pixel_dashboard_notification-sidebar .pixel_dashboard_notification-sidebar-wrap .pixel_notification_nav .pixel_notify-btn:hover .pixel_notify-btn-text::before {
         width: 100%; }
   .pixel_dashboard_notification-sidebar .pixel_dashboard_notification-sidebar-wrap .pixel_notification_body {
